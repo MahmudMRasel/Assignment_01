@@ -313,3 +313,65 @@ body {
 
 
 
+.footer{
+  background: #071e33;
+  padding: 60px 48px 35px;
+  color: #fff;
+}
+
+.footer-top{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img{
+  height: 44px;
+  display: block;
+}
+
+.social p{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.social-icons{
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.social-icon{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(193, 98, 98, 0.12);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.social-icon:hover{
+  background: rgba(255,255,255,0.2);
+}
+
+.footer-line{
+  max-width: 1200px;
+  margin: 30px auto ;
+  height: 1px;
+  background: rgba(255,255,255,0.15);
+}
+
+.footer-bottom{
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255,255,255,0.85);
+}
