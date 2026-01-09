@@ -219,7 +219,7 @@ body {
   padding: 90px 48px;
  }
 
-.second-wrap{
+.second-brain{
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -284,12 +284,30 @@ body {
   color: #0b1f33;
 }
 
-/* .check{
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  display: block;
-} */
+/* CTA SECTION (CSS) */
+.ThinkMore{
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 70px 24px;
+  text-align: center;
+  background: #f7f4ee;
+  border-radius: 14px;
+}
+
+.ThinkMore .actions{
+  margin-top: 22px;
+}
+
+.ThinkMore.btn{
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.note{
+  margin-top: 18px;
+  font-size: 14px;
+}
 
 
 
